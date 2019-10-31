@@ -8,22 +8,21 @@
 
 # Set the working directory
 
-setwd("~/project-titanic-R/Titanic-R")
+setwd("~/machine-learning/Titanic-R")
 
 ######## Import the training dataset #########
 
 # Import from web
-#train <- read.csv('https://raw.githubusercontent.com/devrakib/machine-learning-project/master/Titanic-R/train.csv')
+#train <- read.csv('https://raw.githubusercontent.com/devrakib/machine-learning-project/master/Titanic-R/datasets/train.csv')
 
-train <- read.csv("~/project-titanic-R/Titanic-R/train.csv")
-
+train <- read.csv("~/machine-learning/Titanic-R/datasets/train.csv")
 
 ###### Import the test dataset #######
 
 # Import from web
-#test <- read.csv('https://raw.githubusercontent.com/devrakib/machine-learning-project/master/Titanic-R/test.csv')
+#test <- read.csv('https://raw.githubusercontent.com/devrakib/machine-learning-project/master/Titanic-R/datasets/test.csv')
 
-test <- read.csv("~/project-titanic-R/Titanic-R/test.csv")
+test <- read.csv("~/machine-learning/Titanic-R/datasets/test.csv")
 
 # a small test, we do not try bigger things for now
 
